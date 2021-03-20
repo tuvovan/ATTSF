@@ -1,7 +1,7 @@
-# Deep HDR Imaging
+# ATTSF
 Solution of Defocus Deblurring Challenge - [Attention! Stay Focus! (ATTSF)](https://competitions.codalab.org/competitions/28049#results) - NTIRE 2021
 ## Content
-- [ATTSF](#attention-stay-focus)
+- [ATTSF](#attsf)
 - [Getting Started](#getting-started)
 - [Running](#running)
 - [References](#references)
@@ -42,37 +42,22 @@ Solution of Defocus Deblurring Challenge - [Attention! Stay Focus! (ATTSF)](http
 ## Usage
 ### Training
 ```
-usage: main.py [-h] [--images_path IMAGES_PATH] [--test_path TEST_PATH]
-               [--lr LR] [--gpu GPU] [--num_epochs NUM_EPOCHS] 
-               [--train_batch_size TRAIN_BATCH_SIZE]
-               [--display_ep DISPLAY_EP] [--checkpoint_ep CHECKPOINT_EP]
-               [--checkpoints_folder CHECKPOINTS_FOLDER]
-               [--load_pretrain LOAD_PRETRAIN] [--pretrain_dir PRETRAIN_DIR]
-               [--filter FILTER] [--kernel KERNEL]
-               [--encoder_kernel ENCODER_KERNEL]
-               [--decoder_kernel DECODER_KERNEL]
-               [--triple_pass_filter TRIPLE_PASS_FILTER]
+usage: main5.py [-h] [--filter FILTER] [--attention_filter ATTENTION_FILTER]
+                [--kernel KERNEL] [--encoder_kernel ENCODER_KERNEL]
+                [--decoder_kernel DECODER_KERNEL]
+                [--triple_pass_filter TRIPLE_PASS_FILTER] [--num_rrg NUM_RRG]
+                [--num_mrb NUM_MRB]
 ```
-
 ```
-optional arguments: -h, --help                show this help message and exit
-                    --images_path             training path
-                    --lr                      LR
-                    --gpu                     GPU
-                    --num_epochs              NUM of EPOCHS
-                    --train_batch_size        training batch size
-                    --display_ep              display result every "x" epoch
-                    --checkpoint_ep           save weights every "x" epoch
-                    --checkpoints_folder      folder to save weight
-                    --load_pretrain           load pretrained model
-                    --pretrain_dir            pretrained model folder
-                    --filter                  default filter
-                    --kernel                  default kernel
-                    --encoder_kernel          encoder filter size
-                    --decoder_kernel          decoder filter size
-                    --triple_pass_filter      number of filter in triple pass
+optional arguments:
+  -h, --help            show this help message and exit
+  --filter FILTER
+  --attention_filter ATTENTION_FILTER
+  --kernel KERNEL
+  --encoder_kernel ENCODER_KERNEL
+  --decoder_kernel DECODER_KERNEL
+  --triple_pass_filter TRIPLE_PASS_FILTER
 ```
-
 ### Testing
 - Download the weight [here](https://drive.google.com/file/d/1OjJYirwRa8cLGzzdRYRkjq_1FokyI80V/view?usp=sharing) and put it to the folder ```ModelCheckpoints```
 
