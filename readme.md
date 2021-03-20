@@ -86,9 +86,7 @@ optional arguments: -h, --help                show this help message and exit
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/tuvovan/NHDRRNet/blob/master/LICENSE) file for details
 
 ## References
-[1] Deep HDR Imaging via A Non-Local Network - TIP 2020 [link](https://ieeexplore.ieee.org/document/8989959)
-
-[3] Training and Testing dataset - [link](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
+[1] Defocus Deblurring Challenge - [NTIRE2021](https://competitions.codalab.org/competitions/28049#results)
 
 ## Citation
 ## Acknowledgments
