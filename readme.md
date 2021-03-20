@@ -83,7 +83,7 @@ optional arguments: -h, --help                show this help message and exit
 ![](results/0500_l.png)    | ![](results/0500_r.png)   | ![](results/0500_g.png) 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/tuvovan/NHDRRNet/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tuvovan/ATTSF/blob/master/LICENSE) file for details
 
 ## References
 [1] Defocus Deblurring Challenge - [NTIRE2021](https://competitions.codalab.org/competitions/28049#results)
