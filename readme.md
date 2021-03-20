@@ -1,7 +1,7 @@
 # Deep HDR Imaging
 Solution of Defocus Deblurring Challenge - [Attention! Stay Focus! (ATTSF)](https://competitions.codalab.org/competitions/28049#results) - NTIRE 2021
 ## Content
-- [Deep-HDR-Imaging](#attention-stay-focus)
+- [ATTSF](#attention-stay-focus)
 - [Getting Started](#getting-started)
 - [Running](#running)
 - [References](#references)
@@ -79,6 +79,7 @@ optional arguments: -h, --help                show this help message and exit
 #### Result
         Left image         |       Right Image         |        Output
 ![](results/0501_l.png)    | ![](results/0501_r.png)   | ![](results/0501_g.png)
+:-------------------------:|:-------------------------:|:-------------------------:
 ![](results/0500_l.png)    | ![](results/0500_r.png)   | ![](results/0500_g.png) 
 :-------------------------:|:-------------------------:|:-------------------------:
 ## License
