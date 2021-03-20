@@ -81,7 +81,6 @@ optional arguments: -h, --help                show this help message and exit
 ![](results/0501_l.png)    | ![](results/0501_r.png)   | ![](results/0501_g.png)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](results/0500_l.png)    | ![](results/0500_r.png)   | ![](results/0500_g.png) 
-:-------------------------:|:-------------------------:|:-------------------------:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/tuvovan/NHDRRNet/blob/master/LICENSE) file for details
@@ -92,20 +91,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 [3] Training and Testing dataset - [link](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
 
 ## Citation
-```
-    @ARTICLE{8989959,  author={Q. Yan and L. Zhang and Y. Liu and Y. Zhu and J. Sun and Q. Shi and Y. Zhang},  
-    journal={IEEE Transactions on Image Processing},   
-    title={Deep HDR Imaging via A Non-Local Network},   
-    year={2020},  
-    volume={29},  
-    number={},  
-    pages={4308-4322},}
-```
 ## Acknowledgments
-- This work based on the paper mentioned above with few modification:
-    - the fixed size of the adaptive average pooling (16 instead of 32 as assigned in the paper)
-    - the number of triple pass module is defined as 10 to match the number of 32M as stated in the paper.
-- Any ideas on updating or misunderstanding, please send me an email: <vovantu.hust@gmail.com>
-- If you find this repo helpful, kindly give me a star.
-
-# Update: I have just released my work on HDR imaging using Attention non-local network. Please check as follow: https://github.com/tuvovan/ANL-HDRI
+- This work is heavily based on the code from the challenge [host](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) . Thank you for the hard job.
