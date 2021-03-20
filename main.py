@@ -51,7 +51,7 @@ def train(configure):
 
     elif op_phase=='test':
         os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-        os.environ["CUDA_VISIBLE_DEVICES"]="1"
+        os.environ["CUDA_VISIBLE_DEVICES"]="0"
         data_random_shuffling('test')
 
 
@@ -84,7 +84,7 @@ def train(configure):
 
     elif op_phase=='valid':
         os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-        os.environ["CUDA_VISIBLE_DEVICES"]="1"
+        os.environ["CUDA_VISIBLE_DEVICES"]="0"
         data_random_shuffling('validation')
 
         model_x = Net(configure)
@@ -92,7 +92,7 @@ def train(configure):
         input_test = Input(input_size)
         output_test=model_x.main_model(input_test)
         model = Model(inputs = input_test, outputs = output_test)
-        model.load_weights('ModelCheckpoints/defocus_deblurring_dp_l5_s512_f0.7_d0_64_14_dual_attention_big_100_psnr_ft.h5')
+        model.load_weights('ModelCheckpoints/weights.h5')
         img_mini_b = 1
 
         test_imgaes = validation_generator(total_nb_test)
