@@ -64,8 +64,8 @@ optional arguments:
 #### Result
         Left image         |       Right Image         |        Output
 ![](results/0501_l.png)    | ![](results/0501_r.png)   | ![](results/0501_g.png)
-![](results/0523_l.png)    | ![](results/0523_r.png)   | ![](results/0523_g.png)
 :-------------------------:|:-------------------------:|:-------------------------:
+![](results/0523_l.png)    | ![](results/0523_r.png)   | ![](results/0523_g.png)
 ![](results/0500_l.png)    | ![](results/0500_r.png)   | ![](results/0500_g.png) 
 ## License
 
