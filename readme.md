@@ -42,7 +42,7 @@ Solution of Defocus Deblurring Challenge - [Attention! Stay Focus! (ATTSF)](http
 ## Usage
 ### Training
 ```
-usage: main5.py [-h] [--filter FILTER] [--attention_filter ATTENTION_FILTER]
+usage: main.py [-h] [--filter FILTER] [--attention_filter ATTENTION_FILTER]
                 [--kernel KERNEL] [--encoder_kernel ENCODER_KERNEL]
                 [--decoder_kernel DECODER_KERNEL]
                 [--triple_pass_filter TRIPLE_PASS_FILTER] [--num_rrg NUM_RRG]
