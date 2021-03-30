@@ -61,7 +61,8 @@ def train(configure):
         output_test=model_x.main_model(input_test)
         model = Model(inputs = input_test, outputs = output_test)
 
-        model.load_weights('ModelCheckpoints/defocus_deblurring_dp_l5_s512_f0.7_d0_64_14_dual_attention_big_100_psnr.h5')
+#         model.load_weights('ModelCheckpoints/defocus_deblurring_dp_l5_s512_f0.7_d0_64_14_dual_attention_big_100_psnr.h5')
+	model.load_weights('ModelCheckpoints/defocus_deblurring_dp_l5_s512_f0.7_d0_64_14_dual_attention_big_100_psnr_ft_ft.h5')
         img_mini_b = 1
 
         test_imgaes, gt_images = test_generator(total_nb_test)
