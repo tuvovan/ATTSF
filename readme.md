@@ -60,7 +60,7 @@ optional arguments:
   --triple_pass_filter TRIPLE_PASS_FILTER
 ```
 ### Testing
-- Download the weight [here](https://drive.google.com/file/d/1eYEqdJCeUNAzd4UGbASH7FOW5SgFS3MR/view?usp=sharing) and put it to the folder ```ModelCheckpoints```
+- Download the weight [here](https://drive.google.com/file/d/1xzOyEob8D0txRgvHHbo5s0Z8QRSp-cFH/view?usp=sharing) and put it to the folder ```ModelCheckpoints```
 
 #### Result
         Left image         |       Right Image         |        Output
