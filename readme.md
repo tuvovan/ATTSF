@@ -1,10 +1,10 @@
-# ATTSF
-Solution of Defocus Deblurring Challenge - [Attention! Stay Focus! (ATTSF)](https://competitions.codalab.org/competitions/28049#results) - NTIRE 2021
+# ATTSF Attention! Stay Focus!
+## Solution of Defocus Deblurring Challenge - [Attention! Stay Focus! (ATTSF)](https://competitions.codalab.org/competitions/28049#results) - NTIRE 2021
 
 Paper [link](https://arxiv.org/pdf/2104.07925.pdf)
 ![ATTSF](results/rs.gif)
 ## Content
-- [ATTSF](#attsf)
+- [ATTSF Attention! Stay Focus!](#attsf-attention!-stay-focus!)
 - [Getting Started](#getting-started)
 - [Running](#running)
 - [References](#references)
