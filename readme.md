@@ -79,5 +79,15 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 [1] Defocus Deblurring Challenge - [NTIRE2021](https://competitions.codalab.org/competitions/28049#results)
 
 ## Citation
+```
+@InProceedings{Vo_2021_CVPR,
+    author    = {Vo, Tu},
+    title     = {Attention! Stay Focus!},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {479-486}
+}
+```
 ## Acknowledgments
 - This work is heavily based on the code from the challenge [host](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) . Thank you for the hard job.
