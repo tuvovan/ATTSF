@@ -64,6 +64,7 @@ optional arguments:
 ```
 ### Testing
 - Download the weight [here](https://drive.google.com/file/d/1xzOyEob8D0txRgvHHbo5s0Z8QRSp-cFH/view?usp=sharing) and put it to the folder ```ModelCheckpoints```
+- Note: as the part of our research, the weight file has been hidden.
 
 #### Result
         Left image         |       Right Image         |        Output
